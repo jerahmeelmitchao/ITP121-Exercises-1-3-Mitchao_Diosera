@@ -74,7 +74,6 @@
                 $classification = "senior citizen";
             }
             
-            // Display feedback
             echo "<p>Your age is $age years old. You are classified as a $classification.</p>";
         }
         ?>
