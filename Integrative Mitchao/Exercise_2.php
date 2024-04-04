@@ -50,7 +50,7 @@
         $factorialResult = factorial($number);
         echo "<h1>Factorial of $number is: $factorialResult</h1>";
         
-        $students = array("Ana", "Jason", "Juan", "Tantan", "Love","ReJean","Janessa","Via","Sofeia");
+        $students = array("Jerahmeel", "Eshrafel", "Jareth", "Zheff", "Agnaram","Apam","Alisan","Novie","Lods");
 
         echo "<h2>Student Names:</h2>";
         foreach ($students as $student) {
