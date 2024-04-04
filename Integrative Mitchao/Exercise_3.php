@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: gray; 
+            background-color: #2c3e50; 
             margin: 0;
             padding: 0;
             display: flex;
@@ -16,15 +16,15 @@
             height: 100vh;
         }
         .container {
-            background-color: #f5f5f5;
+            background-color: #34495e; 
             border-radius: 8px;
             padding: 20px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            box-shadow: 0 0 10px rgba(0,0,0,0.5); 
             text-align: center;
         }
         h2 {
             margin-bottom: 20px;
-            color: #333; 
+            color: #ecf0f1;
         }
         form {
             display: flex;
@@ -33,18 +33,19 @@
         }
         label {
             margin-bottom: 10px;
-            color: #333;
+            color: #ecf0f1;
         }
         input[type="text"],
         input[type="password"] {
             padding: 10px;
             border-radius: 5px;
-            border: 1px solid #ccc;
+            border: 1px solid #bdc3c7; 
             margin-bottom: 10px;
             width: 250px;
+            background-color: #ecf0f1; 
         }
         button {
-            background-color: #4CAF50;
+            background-color: #3498db; 
             color: white;
             padding: 10px 20px;
             border: none;
@@ -52,17 +53,17 @@
             cursor: pointer;
         }
         button:hover {
-            background-color: #45a049;
+            background-color: #2980b9; 
         }
         .message {
             margin-top: 20px;
-            color: #333;
+            color: #ecf0f1;
         }
         .success {
-            color: green;
+            color: #2ecc71; 
         }
         .error {
-            color: red;
+            color: #e74c3c; 
         }
     </style>
 </head>
@@ -79,8 +80,8 @@
         <?php
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
             // Dummy username and password for validation
-            $valid_username = "admin";
-            $valid_password = "admin";
+            $valid_username = "user";
+            $valid_password = "1234";
             
             // Retrieve username and password from the form
             $username = $_POST['username'];
