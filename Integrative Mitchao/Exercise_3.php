@@ -80,8 +80,8 @@
         <?php
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
             // Dummy username and password for validation
-            $valid_username = "user";
-            $valid_password = "1234";
+            $valid_username = "admin";
+            $valid_password = "admin";
             
             // Retrieve username and password from the form
             $username = $_POST['username'];
