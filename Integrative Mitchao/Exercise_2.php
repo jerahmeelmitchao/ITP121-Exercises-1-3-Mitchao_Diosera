@@ -10,7 +10,6 @@
             padding: 0;
             height: 100vh;
             background: gray;
-            /* Adjust the angle and colors as needed */
             display: flex;
             justify-content: center;
             align-items: center;
@@ -20,7 +19,7 @@
             padding: 50px;
             color: black;
             border-radius: 8px;
-            background-color: #f2f2f2; /* Change the background color here */
+            background-color: #f2f2f2; 
             box-shadow: 0 0 10px rgba(0,0,0,0.3);
         }
     </style>
@@ -28,7 +27,6 @@
 <body>
     <div class="content">
         <?php
-        // Function to calculate factorial using recursion
         function factorial($n) {
             if ($n <= 1) {
                 return 1;
@@ -36,16 +34,12 @@
                 return $n * factorial($n - 1);
             }
         }
-        
-        // Example usage of factorial function
         $number = 5;
         $factorialResult = factorial($number);
         echo "<h1>Factorial of $number is: $factorialResult</h1>";
         
-        // Array of student names
-        $students = array("Alice", "Bob", "Charlie", "David", "Eve");
-        
-        // Loop to print each student's name
+        $students = array("Jerahmeel", "Eshrafel", "Jareth", "Zheff", "Agnaram","Apam","Alisan","Novie","Lods");
+
         echo "<h2>Student Names:</h2>";
         foreach ($students as $student) {
             echo "<p>$student</p>";
