@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: gray; /* Lighter background color */
+            background-color: gray; 
             margin: 0;
             padding: 0;
             display: flex;
@@ -24,7 +24,7 @@
         }
         h2 {
             margin-bottom: 20px;
-            color: #333; /* Darker text color */
+            color: #333; 
         }
         form {
             display: flex;
@@ -33,7 +33,7 @@
         }
         label {
             margin-bottom: 10px;
-            color: #333; /* Darker text color */
+            color: #333;
         }
         input[type="text"],
         input[type="password"] {
@@ -56,7 +56,7 @@
         }
         .message {
             margin-top: 20px;
-            color: #333; /* Darker text color */
+            color: #333;
         }
         .success {
             color: green;
